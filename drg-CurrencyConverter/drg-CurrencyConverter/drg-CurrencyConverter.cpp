@@ -19,7 +19,7 @@ int main()
     std::cin >> fltUSD;
 
     // Stage 3: Processing
-    fltResult = fltUSD * (0.92);
+    fltResult = fltUSD * 0.92;
 
     // Stage 1: Output
     std::cout << "\nThe conversion amount is: " << fltResult;         
