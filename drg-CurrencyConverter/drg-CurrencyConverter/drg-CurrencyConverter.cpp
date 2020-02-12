@@ -3,23 +3,24 @@
 // Date: 20200210
 // Description: Converting USD to Euros
 
-#include <iostream> // C++
+#include <stdafx.h>
+#include <iostream>
 
 int main()
 {
     std::cout << "Hello World!";
     
     // Stage 2: Variables
-    float USD{};
-    float result;
+    float fltUSD = 0.0;
+    float fltResult = 0.0;
     
     // Stage 4: Input
     std::cout << "\nPlease enter the amount of USD to convert to Euros: ";
-    std::cin >> USD;
+    std::cin >> fltUSD;
 
     // Stage 3: Processing
-    result = USD * (0.92);
+    fltResult = fltUSD * (0.92);
 
     // Stage 1: Output
-    std::cout << "\nThe conversion amount is: " << result;         
+    std::cout << "\nThe conversion amount is: " << fltResult;         
 }
